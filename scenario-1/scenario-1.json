@@ -1,0 +1,15 @@
+#output
+[
+    {
+        "DBInstanceIdentifier": "database-1",
+        "Engine": "mysql",
+        "Status": "available",
+        "Endpoint": "database-1.ctewecos28w7.eu-north-1.rds.amazonaws.com"
+    },
+    {
+        "DBInstanceIdentifier": "database-2",
+        "Engine": "postgres",
+        "Status": "available",
+        "Endpoint": "database-2.ctewecos28w7.eu-north-1.rds.amazonaws.com"
+    }
+]
