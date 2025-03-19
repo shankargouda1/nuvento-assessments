@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: rds-metadata-tool
+  name: rds-scanner
 spec:
   selector:
     app: {{ .Chart.Name }}
