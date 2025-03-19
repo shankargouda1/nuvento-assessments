@@ -13,7 +13,7 @@ spec:
         app: {{ .Chart.Name }}
     spec:
       containers:
-        - name: rds-metadata-tool
+        - name: rds-scanner
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           command: [ "sleep", "infinity" ]  # Prevent auto-execution
