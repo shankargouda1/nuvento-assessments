@@ -1,5 +1,5 @@
 apiVersion: v2
-name: rds-metadata-tool
+name: rds-scanner
 description: A Helm chart for deploying an RDS metadata retrieval tool
 type: application
 version: 0.1.0
